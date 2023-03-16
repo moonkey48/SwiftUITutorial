@@ -10,9 +10,9 @@ import SwiftUI
 struct Landscape: View {
     var body: some View {
         VStack {
-            MapView()
-                .frame(height: 400)
-                .ignoresSafeArea()
+//            MapView()
+//                .frame(height: 400)
+//                .ignoresSafeArea()
             
             
             Image("austin_profile")
