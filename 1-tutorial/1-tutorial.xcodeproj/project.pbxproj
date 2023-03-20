@@ -37,6 +37,8 @@
 		9585E8AD29C5852A0081BE3D /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585E8A929C5852A0081BE3D /* HikeDetail.swift */; };
 		9585E8AE29C5852A0081BE3D /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585E8AA29C5852A0081BE3D /* HikeView.swift */; };
 		9585E8B129C82F170081BE3D /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585E8B029C82F170081BE3D /* CategoryHome.swift */; };
+		9585E8B329C8359F0081BE3D /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585E8B229C8359F0081BE3D /* CategoryRow.swift */; };
+		9585E8B529C8376B0081BE3D /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585E8B429C8376B0081BE3D /* CategoryItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +92,8 @@
 		9585E8A929C5852A0081BE3D /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		9585E8AA29C5852A0081BE3D /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
 		9585E8B029C82F170081BE3D /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		9585E8B229C8359F0081BE3D /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		9585E8B429C8376B0081BE3D /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,6 +268,8 @@
 			isa = PBXGroup;
 			children = (
 				9585E8B029C82F170081BE3D /* CategoryHome.swift */,
+				9585E8B229C8359F0081BE3D /* CategoryRow.swift */,
+				9585E8B429C8376B0081BE3D /* CategoryItem.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -410,6 +416,7 @@
 				9585E85729C313040081BE3D /* LandmarkDetail.swift in Sources */,
 				9585E85929C313DA0081BE3D /* ProfileTest.swift in Sources */,
 				9585E81A29C013520081BE3D /* __tutorialApp.swift in Sources */,
+				9585E8B329C8359F0081BE3D /* CategoryRow.swift in Sources */,
 				9585E89B29C443570081BE3D /* BadgeSymbol.swift in Sources */,
 				9585E8AD29C5852A0081BE3D /* HikeDetail.swift in Sources */,
 				9585E84A29C3051D0081BE3D /* Landmark.swift in Sources */,
@@ -418,6 +425,7 @@
 				9585E8AC29C5852A0081BE3D /* HikeGraph.swift in Sources */,
 				9585E89729C35CC40081BE3D /* HexagonParameters.swift in Sources */,
 				9585E85B29C3168D0081BE3D /* CircleImage.swift in Sources */,
+				9585E8B529C8376B0081BE3D /* CategoryItem.swift in Sources */,
 				9585E85329C30BDD0081BE3D /* LandmarkRow.swift in Sources */,
 				9585E84E29C308070081BE3D /* ModelData.swift in Sources */,
 				9585E8AB29C5852A0081BE3D /* GraphCapsule.swift in Sources */,
