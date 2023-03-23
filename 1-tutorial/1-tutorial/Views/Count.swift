@@ -1,30 +1,34 @@
-//
-//  SwiftUIView.swift
-//  1-tutorial
-//
-//  Created by Seungui Moon on 2023/03/21.
-//
-
 import SwiftUI
 
-class Counter: ObservableObject {
-    @Published var score: Int = 0
+class CounterModel: ObservableObject {
+    @Published var count = 0
 }
 
-struct Count: View {
-//    @State var score: Int = 0
-    @ObservedObject var counter = Counter()
+struct CounterView: View {
+    @State var stateCount = 0
+
+    var body: some View {
+        VStack{
+            Text("\(stateCount)")
+            Button("Increment stateCount") {
+                stateCount += 1
+            }
+            
+            Counter(stateCount: stateCount)
+        }
+    }
+}
+
+struct Counter: View {
+    @StateObject var counterModel = CounterModel()
+    let stateCount: Int
     
     var body: some View {
         VStack {
-            Text("\(counter.score)")
-                .font(.title)
-               
-            Button {
-                counter.score += 1
-            } label: {
-                Text("+")
-                    .font(.title2)
+            Text("stateCount: \(stateCount)")
+            Text("counterCount: \(counterModel.count)")
+            Button("Increment counterCount") {
+                counterModel.count += 1
             }
         }
     }
@@ -32,6 +36,6 @@ struct Count: View {
 
 struct Count_Previews: PreviewProvider {
     static var previews: some View {
-        Count()
+        CounterView()
     }
 }
